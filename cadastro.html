@@ -1,0 +1,16 @@
+
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+<h2>Tela de cadastro</h2>
+<form action="/validacao">
+    Nome: <input type="text" name="nome"><br/>
+    Sobrenome: <input type="text" name="sobrenome"><br/>
+    CPF: <input type="text" name="cpf"><br/>
+    Email: <input type="text" name="email"><br/>
+    Telefone: <input type="text" name="telefone"><br/>
+    <button type="submit">Cadastrar</button>
+</form>
+
+{% endblock %}
